@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body, html{
+    height: 100%;
+}
+
+.galaxy {
+    background-image: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, -0.5)), url("14.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.alon {
+    background-image: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, -0.5)), url("15.jpg");
+    position: fixed;
+    height: 35%;
+    width: 15%;
+    left: 80%;
+    top: 20%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.name{
+    text-align: center;
+    position: fixed;
+    left: 87%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: "Ariel";
+  }
+
+
+.para1 {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Ariel";   
+  }
+
+.para2 {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 44%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 15px;   
+    font-family: "Ariel";
+}
+
+.skills{
+    text-align: left;
+    position: fixed;
+    left: 20%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: "Ariel";
+}
+
+h2{
+    color: #ffffff; 
+    font-size: 30px;   
+} */
+
+
+
+.button-group {
+    display: inline-flex;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.button1 {
+    position: absolute;
+    padding: 10px 16px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #FFC600;
+    background: #4071ba;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    top:40%;
+    left:45%;
+    transition: color 1.5s;
+}
+
+.button1:hover {
+    transition: color 1.5s;
+    background-color: #FFC600;
+    color: #4071ba;
+}
+  
+.github-icon{
+  font-size: 30px;
+  color: #ffffff;
+  position: fixed;
+  left: 5%;
+  top: 14%;
+  transition: color 0.4s;
+  text-decoration: none; 
+}
+
+.linkedin-icon{
+    font-size: 30px;
+    color: #ffffff;
+    position: fixed;
+    left: 5%;
+    top: 22%;
+    transition: color 0.4s;
+    text-decoration: none; 
+}
+
+.CV-icon{
+  font-size: 30px;
+  color: #ffffff;
+  position: fixed;
+  left: 5%;
+  top: 30%;
+  transition: color 0.4s;
+  text-decoration: none; 
+}
+
+.links{
+    font-size: 20px;  
+    text-align: center;
+    position: fixed;
+    left: 6%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: "Ariel";
+
+}
+
+.linkedin-icon:hover{
+    color: #000000;
+}
+
+.github-icon:hover{
+    color: #000000;
+}
+
+.CV-icon:hover{
+  color: #000000;
+}
+
+
+
+.rating {
+    font-size: 15px;  
+    text-align: center;
+    position: fixed;
+    left: 88%;
+    top: 82%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: "Ariel";
+    direction: rtl;
+}
+
+
+.rating-input > label, .rating-score > .rating-score-item {
+  display: inline-block;
+}
+.rating-input > label:after, .rating-score > .rating-score-item:after {
+  font-family: "FontAwesome";
+  font-size: 1.5em;
+  color: #FFC600;
+}
+
+.rating-input:hover > input + label:hover:after, .rating-input:hover > input + label:hover ~ input + label:after, .rating-input > input:checked ~ label:after, .rating-score[data-rating="4.5"] > .rating-score-item:nth-child(-n+4):after, .rating-score[data-rating="3.5"] > .rating-score-item:nth-child(-n+3):after, .rating-score[data-rating="2.5"] > .rating-score-item:nth-child(-n+2):after, .rating-score[data-rating="1.5"] > .rating-score-item:nth-child(-n+1):after, .rating-score[data-rating="0.5"] > .rating-score-item:nth-child(-n+0):after, .rating-score[data-rating="5"] > .rating-score-item:nth-child(-n+5):after, .rating-score[data-rating="4"] > .rating-score-item:nth-child(-n+4):after, .rating-score[data-rating="3"] > .rating-score-item:nth-child(-n+3):after, .rating-score[data-rating="2"] > .rating-score-item:nth-child(-n+2):after, .rating-score[data-rating="1"] > .rating-score-item:nth-child(-n+1):after {
+  content: ""; 
+}
+
+.rating-input:hover > input + label:after, .rating-input > label:after, .rating-score > .rating-score-item:after {
+  content: "";
+}
+
+.rating-input {
+  border: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.rating-input > input {
+  display: none;
+}
