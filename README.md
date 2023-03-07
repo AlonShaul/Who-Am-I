@@ -2,10 +2,10 @@
 
 ## Introduction:
 **Hello Everyone!**<br>
-I created a page that tells a little about myself and on it several things appear:<br>
-My links to:<br>
+I created a page that tells a little about myself and several things appear on it:<br>
+* My links to:<br>
 LinkedIn, GitHub, CV.<br>
-A list of my skills.
+* A list of my skills.
 <br><br>
 
 
