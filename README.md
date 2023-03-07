@@ -5,7 +5,8 @@
 I created a page that tells a little about myself and several things appear on it:
 * My links to:<br>
 LinkedIn, GitHub, CV.<br><br>
-* A list of my skills.
+* A list of my skills.<br><br>
+* And more! :)
 <br><br>
 
 
