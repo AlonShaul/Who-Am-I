@@ -6,7 +6,7 @@ I created a page that tells a little about myself and several things appear on i
 * My links to:<br>
 LinkedIn, GitHub, CV.<br><br>
 * A list of my skills.<br><br>
-* And more! :)<br><br>
+* And more! :)<br>
 The application is built from CSS, HTML and JS programming languages.
 <br><br>
 
